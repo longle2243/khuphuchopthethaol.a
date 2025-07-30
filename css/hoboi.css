@@ -1,0 +1,184 @@
+.ho-boi-section {
+    position: relative;
+    width: 1200px;
+    height: 459px;
+    margin: 0 auto;
+
+    margin-top: 50px;
+}
+
+.circle {
+    position: absolute;
+    border-radius: 9999px;
+}
+
+.circle-large {
+    width: 532.16px;
+    height: 532.16px;
+    top: -495.18px;
+    left: -3.69px;
+    transform: rotate(40deg);
+    transform-origin: top left;
+    opacity: 0.08;
+    border: 80px solid #FF8800;
+}
+
+.circle-small1 {
+    width: 186.55px;
+    height: 186.55px;
+    top: 537.33px;
+    left: 1159.17px;
+    transform: rotate(-129deg);
+    transform-origin: top left;
+    border: 1.13px solid #FF8800;
+}
+
+.circle-small2 {
+    width: 115.03px;
+    height: 115.03px;
+    top: 487.04px;
+    left: 1164.54px;
+    transform: rotate(-129deg);
+    transform-origin: top left;
+    border: 1.13px solid #FF8800;
+}
+
+.circle-dot {
+    width: 22.61px;
+    height: 22.61px;
+    top: 474.98px;
+    left: 1245.42px;
+    transform: rotate(-129deg);
+    transform-origin: top left;
+    background: linear-gradient(180deg, #FF8800 0%, #F13433 100%);
+}
+
+.pool-image {
+    width: 692px;
+    height: 459px;
+    position: absolute;
+    left: 508px;
+    top: 0;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.ho-boi-content {
+    width: 485px;
+    position: absolute;
+    top: 51px;
+    left: 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 40px;
+}
+
+.text-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 28px;
+}
+
+.text-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 18px;
+}
+
+.welcome {
+    font-size: 16px;
+    font-family: 'SVN-Gilroy', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2.4px;
+    color: white;
+    text-align: right;
+}
+
+.title {
+    font-size: 34px;
+    font-family: 'SVN-Gilroy', sans-serif;
+    font-weight: 700;
+    color: #FF8800;
+    text-align: right;
+    text-transform: capitalize;
+}
+
+.description {
+    font-size: 14px;
+    font-family: 'SVN-Gilroy', sans-serif;
+    font-weight: 400;
+    line-height: 30px;
+    color: white;
+    text-align: right;
+}
+
+.description .capital {
+    text-transform: capitalize;
+}
+
+.buttons {
+    display: flex;
+    gap: 35px;
+}
+
+.btn-outline {
+    padding: 16px 36px;
+    border-radius: 30px;
+    border: 1px solid #FFC300;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.btn-outline .dot-icon {
+    width: 14px;
+    height: 14px;
+    background: linear-gradient(270deg, #FFC300 0%, #FF8800 100%);
+}
+
+.btn-outline .text {
+    color: #FF8800;
+    font-size: 15px;
+    font-family: 'SVN-Gilroy', sans-serif;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.btn-gradient {
+    height: 52px;
+    padding: 10px 28px;
+    background: linear-gradient(180deg, #FF8800 0%, #F13433 100%);
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.btn-gradient .text {
+    color: white;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.btn-gradient .icon {
+    width: 26px;
+    height: 26px;
+    position: relative;
+}
+
+.btn-gradient .arrow {
+    width: 14px;
+    height: 10px;
+    background: white;
+    position: absolute;
+    top: 8px;
+    left: 6px;
+}

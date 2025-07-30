@@ -1,0 +1,128 @@
+.intro-section {
+  position: relative;
+  width: 1202px;
+  height: 627px;
+  margin: 0 auto;
+}
+
+.intro-box {
+  width: 965px;
+  height: 484px;
+  position: absolute;
+  top: 87px;
+  left: 0;
+  border: 1px solid #FF8800;
+  border-top-left-radius: 14px;
+  border-bottom-left-radius: 14px;
+}
+
+.intro-main-img {
+  position: absolute;
+  top: 43.43px;
+  left: 595.85px;
+  width: 416px;
+  height: 485.46px;
+  transform: rotate(-6deg);
+  transform-origin: top left;
+  border-radius: 14px;
+}
+
+.intro-white-box {
+  position: absolute;
+  top: 261.66px;
+  left: 958.80px;
+  width: 253.31px;
+  height: 307.65px;
+  transform: rotate(16deg);
+  background: white;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.14);
+}
+
+.intro-side-img {
+  position: absolute;
+  top: 273.61px;
+  left: 965.01px;
+  width: 236px;
+  height: 255.5px;
+  transform: rotate(16deg);
+  transform-origin: top left;
+}
+
+.intro-text-content {
+  position: absolute;
+  top: 154.22px;
+  left: 36px;
+  width: 537px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.intro-text-group {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.intro-title {
+  color: #FF8800;
+  font-family: 'Actor', sans-serif;
+  text-transform: capitalize;
+}
+
+.intro-title .small {
+  font-size: 30.04px;
+  line-height: 69.32px;
+}
+
+.intro-title .large {
+  font-size: 62.39px;
+  line-height: 69.32px;
+}
+
+.intro-title .upper {
+  text-transform: uppercase;
+}
+
+.intro-desc {
+  color: white;
+  font-size: 14px;
+  font-family: 'SVN-Gilroy', sans-serif;
+  font-weight: 300;
+  line-height: 30px;
+  text-transform: capitalize;
+}
+
+.intro-button {
+  width: 227px;
+  padding: 20px 28.29px;
+  background: linear-gradient(180deg, #FF8800 0%, #F13433 100%);
+  border-radius: 56.57px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-family: 'SVN-Gilroy', sans-serif;
+  font-weight: 600;
+  color: white;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+.intro-decoration-1 {
+  position: absolute;
+  top: 75px;
+  left: 1081px;
+  width: 174px;
+  height: 178px;
+}
+
+.intro-decoration-2 {
+  position: absolute;
+  top: 636.79px;
+  left: 449.29px;
+  width: 192.5px;
+  height: 192.5px;
+  transform: rotate(-90deg);
+  transform-origin: top left;
+}

@@ -1,0 +1,98 @@
+.dichvukhac-wrapper {
+    width: 100%;
+    background-color: #8E5747;
+    padding: 80px 0;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: 'SVN-Gilroy', sans-serif;
+}
+
+.dichvukhac-content {
+    width: 90%;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.dichvukhac-item {
+    max-width: 330px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.dichvukhac-icon {
+    width: 77px;
+    height: 77px;
+}
+
+.dichvukhac-title {
+    color: #ff8800;
+    font-size: 16px;
+    font-family: 'Acme', sans-serif;
+    line-height: 40px;
+}
+
+.dichvukhac-title .highlight {
+    font-size: 33px;
+}
+
+.dichvukhac-title .upper {
+    text-transform: uppercase;
+}
+
+.dichvukhac-info {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.dichvukhac-address p {
+    font-size: 14px;
+    margin: 0;
+    line-height: 23px;
+}
+
+.dichvukhac-column {
+    max-width: 240px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.dichvukhac-column h3 {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.dichvukhac-column p {
+    font-size: 14px;
+    line-height: 30px;
+    text-transform: capitalize;
+}
+
+.dichvukhac-socials {
+    display: flex;
+    gap: 10px;
+}
+
+.social-circle {
+    width: 35px;
+    height: 35px;
+    background: linear-gradient(180deg, #ff8800 0%, #f13433 100%);
+    border-radius: 50%;
+}
+
+.open-hours {
+    display: flex;
+    gap: 14px;
+    align-items: center;
+}
+
+.open-hours .circle {
+    width: 31px;
+    height: 31px;
+}

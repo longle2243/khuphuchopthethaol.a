@@ -1,0 +1,182 @@
+.accessory-intro {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: 'SVN-Gilroy', sans-serif;
+    padding: 40px 0;
+}
+
+.intro-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.intro-category {
+    display: flex;
+    gap: 12px;
+}
+
+.category {
+    background: transparent;
+    border-radius: 30px;
+    border: 1px solid #f0f0f0;
+    padding: 10px 20px;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.category.active {
+    background: linear-gradient(180deg, #ff8800, #f13433);
+    color: white;
+}
+
+.intro-title-area {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.intro-title {
+    font-size: 46px;
+    font-weight: 700;
+    color: #ff8800;
+    text-transform: capitalize;
+}
+
+.view-all-btn {
+    padding: 10px 28px;
+    background: linear-gradient(180deg, rgba(255, 136, 0, 0.1), rgba(241, 52, 51, 0.1));
+    border-radius: 40px;
+    color: #ff8800;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.arrow-icon {
+    width: 14px;
+    height: 10px;
+    background: linear-gradient(180deg, #ff8800 0%, #f13433 100%);
+    display: inline-block;
+}
+
+.intro-body {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.highlight {
+    width: 387px;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.highlight-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+}
+
+.gradient-overlay {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.7) 100%);
+}
+
+.highlight-text {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+}
+
+.highlight-text h3 {
+    font-size: 20px;
+    margin-bottom: 16px;
+}
+
+.buy-btn {
+    background: white;
+    border-radius: 40px;
+    padding: 7px 20px;
+    color: #ffc300;
+    border: 1px solid #ffc300;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.product-list {
+    display: flex;
+    flex: 1;
+    gap: 21px;
+    align-content: flex-start;
+    flex-wrap: nowrap;
+}
+
+.product-card {
+    background: white;
+    border: 1px solid #e4e4e4;
+    border-radius: 8px;
+    padding: 10px;
+    width: 230px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.product-card img {
+    width: 100%;
+    border-radius: 4px;
+}
+
+.product-info {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.product-name {
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: black;
+}
+
+.product-price {
+    font-size: 14px;
+    color: #7b7b7b;
+}
+
+.highlight-price {
+    color: #ff8800;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.intro-description {
+    font-size: 14px;
+    color: white;
+    line-height: 24px;
+    max-width: 100%;
+}

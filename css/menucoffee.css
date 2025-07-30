@@ -1,0 +1,194 @@
+.gioi-thieu {
+    position: relative;
+    background-color: #E4D1B0;
+    width: 100%;
+    padding: 80px 0;
+}
+
+.background-decor {
+    width: 90%;
+    height: 1324px;
+    margin: auto;
+    background: linear-gradient(180deg, rgba(255, 136, 0, 0.05), rgba(255, 136, 0, 0));
+    border-radius: 80px;
+    position: relative;
+    z-index: 1;
+}
+
+.gioi-thieu-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    z-index: 2;
+    position: relative;
+}
+
+.header-box {
+    width: 80%;
+    height: 110px;
+    border: 5px solid #E8E6E1;
+}
+
+.header-gradient {
+    width: 85%;
+    height: 110px;
+    opacity: 0.04;
+    background: linear-gradient(180deg, #FF8800 0%, #F13433 100%);
+    border: 6px solid #175038;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    gap: 34px;
+}
+
+.title .dot {
+    width: 10px;
+    height: 10px;
+    background: #8E5747;
+    border-radius: 9999px;
+}
+
+.title h2 {
+    font-size: 64px;
+    font-family: "Actor", sans-serif;
+    color: #8E5747;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.menu-image {
+    width: 1200px;
+    height: 842px;
+    border-radius: 14px;
+    border: 6px solid #8E5747;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.content-box {
+    position: relative;
+    top: -100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 34px;
+    z-index: 3;
+}
+
+.intro-text {
+    text-align: center;
+}
+
+.intro-background {
+    width: 180px;
+    height: 122px;
+    background: rgba(0, 0, 0, 0.04);
+    margin: auto;
+}
+
+.text-wrap h3 {
+    font-size: 46px;
+    color: #FFC300;
+    font-family: 'ABeeZee', sans-serif;
+}
+
+.text-wrap p {
+    max-width: 1000px;
+    font-size: 14px;
+    font-family: 'SVN-Gilroy', sans-serif;
+    color: #222;
+    line-height: 24px;
+    margin: 0 auto;
+}
+
+.card-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 387px;
+    background: white;
+    border-radius: 14px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.14);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-image {
+    width: 100%;
+    height: 387px;
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.tag {
+    background: #FF8800;
+    border-radius: 30px;
+    color: white;
+    font-size: 15px;
+    font-family: 'SVN-Gilroy', sans-serif;
+    padding: 16px 21px;
+}
+
+.card-content {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.card-content .desc {
+    font-size: 20px;
+    font-family: 'SVN-Gilroy', sans-serif;
+    font-weight: 600;
+    color: black;
+    line-height: 30px;
+}
+
+.card-content .price {
+    font-size: 20px;
+    font-family: 'SVN-Gilroy', sans-serif;
+    font-weight: 500;
+    color: black;
+}
+
+.card-content .price span {
+    font-size: 24px;
+    font-weight: 600;
+    color: #FF8800;
+}
+
+.indicator {
+    display: flex;
+    gap: 14px;
+    margin-top: 20px;
+}
+
+.indicator div {
+    width: 14px;
+    height: 14px;
+    background: #D9D9D9;
+    border-radius: 9999px;
+}
+
+.indicator .active {
+    background: linear-gradient(180deg, #FF8800 0%, #F13433 100%);
+}
+
+.logobida{
+    margin-top: 150px;
+    width: 150px;
+}
